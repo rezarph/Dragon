@@ -222,8 +222,6 @@ function create_config( )
     "anti_spam",
     "owners",
     "arabic_lock",
-    "lock_number",
-    "lock_join",
     "plugins",
     "send",
     "filter",
