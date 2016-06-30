@@ -196,7 +196,7 @@ function show_group_settingsmod(msg, target)
         	NUM_MSG_MAX = 5
       	end
     end
-    local bots_protection = "Yes"
+    local bots_protection = "✅"
     if data[tostring(target)]['settings']['lock_bots'] then
     	bots_protection = data[tostring(target)]['settings']['lock_bots']
    	end
