@@ -226,6 +226,7 @@ function create_config( )
     "send",
     "filter",
     "linkpv",
+    "time",
     "lock_bots",
     "lock_tags",
     "lock_username",
