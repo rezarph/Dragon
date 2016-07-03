@@ -233,6 +233,7 @@ function create_config( )
     "lock_media",
     "lock_emoji",
     "lock_join",
+    "lock_forward",
     "set",
     "get",
     "broadcast",
