@@ -229,6 +229,7 @@ function create_config( )
     "time",
     "saveplug",
     "show",
+    "weather",
     "AutoLaunch",
     "lock_bots",
     "lock_tags",
