@@ -227,6 +227,8 @@ function create_config( )
     "filter",
     "linkpv",
     "time",
+    "saveplug",
+    "show",
     "AutoLaunch",
     "lock_bots",
     "lock_tags",
