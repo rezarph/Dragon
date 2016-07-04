@@ -231,6 +231,8 @@ function create_config( )
     "show",
     "weather",
     "AutoLaunch",
+    "delplug",
+    "Lock_Reply",
     "lock_bots",
     "lock_tags",
     "lock_username",
