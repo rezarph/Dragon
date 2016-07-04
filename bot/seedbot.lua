@@ -230,7 +230,7 @@ function create_config( )
     "saveplug",
     "show",
     "weather",
-    "AutoLaunch",
+    "Info",
     "delplug",
     "Lock_Reply",
     "lock_bots",
