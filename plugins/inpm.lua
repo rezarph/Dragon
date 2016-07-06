@@ -43,7 +43,7 @@ local function chat_list(msg)
 		end
 		if settings then
 			if not settings.public then
-				public = 'no'
+				public = '❌'
 			else
 				public = settings.public
 			end
@@ -52,9 +52,9 @@ local function chat_list(msg)
 			--if m == 'public' then
 				--public = n
 			--end
-			if public == 'no' then 
+			if public == '❌' then 
 				group_info = ""
-			elseif m == 'set_name' and public == 'yes' then
+			elseif m == 'set_name' and public == '✅' then
 				name = n:gsub("", "")
 				chat_name = name:gsub("‮", "")
 				group_name_id = name .. '\n(ID: ' ..group_id.. ')\n\n'
@@ -97,7 +97,7 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
 		if is_banned(msg.from.id, tostring(target)) then
 			return 'You are banned.'
 		end
-		if data[tostring(target)]['settings']['lock_member'] == 'yes' and not is_owner2(msg.from.id, tostring(target)) then
+		if data[tostring(target)]['settings']['lock_member'] == '✅' and not is_owner2(msg.from.id, tostring(target)) then
 			return 'Group is private.'
 		end
 		if is_admin1(msg) then
@@ -118,7 +118,7 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
 		if is_banned(msg.from.id, tostring(target)) then
 			return 'You are banned.'
 		end
-		if data[tostring(target)]['settings']['lock_member'] == 'yes' and not is_owner2(msg.from.id, '36088606') then
+		if data[tostring(target)]['settings']['lock_member'] == '✅' and not is_owner2(msg.from.id, '36088606') then
 			return 'Group is private.'
 		end
 		if is_admin1(msg) then
@@ -159,7 +159,7 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
         if is_banned(msg.from.id, matches[2]) then
 			return 'You are banned.'
 		end
-		if data[tostring(matches[2])]['settings']['lock_member'] == 'yes' and not is_owner2(msg.from.id, matches[2]) then
+		if data[tostring(matches[2])]['settings']['lock_member'] == '✅' and not is_owner2(msg.from.id, matches[2]) then
 			return 'Group is private.'
 		end
 			if not is_support(msg.from.id) and not is_admin1(msg) then
