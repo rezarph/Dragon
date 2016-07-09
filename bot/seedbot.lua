@@ -231,6 +231,7 @@ function create_config( )
     "show",
     "weather",
     "Info",
+    "remplugin",
     "delplug",
     "Lock_Reply",
     "lock_bots",
