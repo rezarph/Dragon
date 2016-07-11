@@ -233,6 +233,7 @@ function create_config( )
     "delplug",
     "Lock_Reply",
     "lock_bots",
+    "lock_operator",
     "lock_tags",
     "lock_username",
     "lock_media",
